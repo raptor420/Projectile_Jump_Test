@@ -20,7 +20,7 @@ public class jumpPod : MonoBehaviour
     private void OnDrawGizmos()
     {
         Gizmos.color = Color.yellow;
-        Gizmos.DrawCube(target.position, new Vector3(6,2.5f,6));
-       
+        Gizmos.DrawCube(target.position, new Vector3(6, 2.5f, 6));
+
     }
 }
